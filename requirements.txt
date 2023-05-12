@@ -4,4 +4,4 @@ scipy==1.10.1
 streamlit==0.89
 streamlit-option-menu==0.2.10
 click>==7.0,<8.0
-altair.vegalite.v4
+altair==5.0.0
