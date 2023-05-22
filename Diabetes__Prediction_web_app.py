@@ -11,9 +11,9 @@ import streamlit as st
 from sklearn.preprocessing import StandardScaler
 from streamlit_option_menu import option_menu
 
-Diabetes_trained_model = pickle.load(open('C:/Users/tonya/ML_Deploy/Prediction_Model/models/diabetes_trained_model.sav', 'rb'))
-heart_trained_model = pickle.load(open('C:/Users/tonya/ML_Deploy/Prediction_Model/models/heart_trained_model.sav', 'rb'))
-parkinson_trained_model = pickle.load(open('C:/Users/tonya/ML_Deploy/Prediction_Model/models/parkinson_trained_model.sav', 'rb'))
+Diabetes_trained_model = pickle.load(open('tonya/ML_diabetes_trained_model.sav', 'rb'))
+heart_trained_model = pickle.load(open('models/heart_trained_model.sav', 'rb'))
+parkinson_trained_model = pickle.load(open('models/parkinson_trained_model.sav', 'rb'))
 
 
 # Sidebar for Navigation
